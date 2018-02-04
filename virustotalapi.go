@@ -3,11 +3,13 @@ package virustotal
 import (
 	"errors"
 	"io"
-	"me/vighnesh/api/virustotal/json"
-	"me/vighnesh/api/virustotal/net/http"
-	"me/vighnesh/api/virustotal/net/multipart"
-	"me/vighnesh/api/virustotal/util"
 	"os"
+
+	"github.com/sevki/virustotal/json"
+	"github.com/sevki/virustotal/net/http"
+	"github.com/sevki/virustotal/net/multipart"
+
+	"github.com/sevki/virustotal/util"
 )
 
 const (

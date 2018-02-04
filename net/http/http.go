@@ -3,8 +3,9 @@ package http
 import (
 	"bytes"
 	"io/ioutil"
-	"me/vighnesh/api/virustotal/net/multipart"
 	"net/http"
+
+	"github.com/sevki/virustotal/net/multipart"
 )
 
 func RequestPost(me *multipart.MultipartEntity, url string) ([]byte, error) {
